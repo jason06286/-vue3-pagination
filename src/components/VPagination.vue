@@ -1,10 +1,10 @@
 <script>
 import { defineComponent, computed } from 'vue';
 import VPage from './atoms/VPage.vue';
-import IconPageFirst from '../assets/icons/page-first.svg';
-import IconPageLast from '../assets/icons/page-last.svg';
-import IconChevronLeft from '../assets/icons/chevron-left.svg';
-import IconChevronRight from '../assets/icons/chevron-right.svg';
+import IconPageFirst from '@/assets/icons/page-first.svg';
+import IconPageLast from '@/assets/icons/page-last.svg';
+import IconChevronLeft from '@/assets/icons/chevron-left.svg';
+import IconChevronRight from '@/assets/icons/chevron-right.svg';
 
 export default defineComponent({
   name: 'VPagination',

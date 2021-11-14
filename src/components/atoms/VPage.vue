@@ -1,7 +1,7 @@
 
 <script>
 import { defineComponent, computed } from 'vue';
-import IconPaginationDots from '../../assets/icons/pagination-dots.svg';
+import IconPaginationDots from '@/assets/icons/pagination-dots.svg';
 
 export default defineComponent({
   name: 'VPage',
